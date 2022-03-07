@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to my first Vue.js App"/>
+    <HelloWorld text="This is my first try with Vue-Cli"/>
+    <img id="mrBean" alt="mrBean" src="./assets/mr_bean.png">
+    <HelloWorld dreamText="This is my dream car!"/>
+    <img id="z4" alt="Z4" src="./assets/z4.png">
   </div>
 </template>
 
@@ -24,5 +28,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#mrBean{
+  border-radius: 999px;
+}
+#z4{
+  width: 500px;
+  height: 300px;
+  border-radius: 25px;
 }
 </style>
