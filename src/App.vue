@@ -5,7 +5,12 @@
     <HelloWorld text="This is my first try with Vue-Cli"/>
     <img id="mrBean" alt="mrBean" src="./assets/mr_bean.png">
     <HelloWorld dreamText="This is my dream car!"/>
-    <img id="z4" alt="Z4" src="./assets/z4.png">
+    <img id="z4" alt="Z4" src="./assets/z4.png"><div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <HelloWorld jumbotronTitle="Fluid jumbotron"/>
+      <HelloWorld jumbotronText="This is a modified jumbotron added for the bonus."/>
+      </div>
+    </div>
   </div>
 </template>
 

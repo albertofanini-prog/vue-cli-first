@@ -3,7 +3,10 @@
     <h1>{{ msg }}</h1>
     <h3>{{ text }}</h3>
     <h5>{{ dreamText}}</h5>
+    <h1>{{jumbotronTitle}}</h1>
+    <p>{{jumbotronText}}</p>
   </div>
+  
 </template>
 
 <script>
@@ -13,6 +16,8 @@ export default {
     msg: String,
     text: String,
     dreamText: String,
+    jumbotronTitle: String,
+    jumbotronText: String,
   }
 }
 </script>
